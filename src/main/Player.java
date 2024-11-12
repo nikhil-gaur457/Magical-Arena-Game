@@ -41,4 +41,12 @@ class Player {
     public void setAttack(int attack) {
         this.attack = attack;
     }
+
+    public void reduceHealth(int damage) {
+        health -= damage;
+    }
+
+    public boolean isAlive() {
+        return health > 0;
+    }
 }
