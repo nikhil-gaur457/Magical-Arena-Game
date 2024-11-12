@@ -7,7 +7,7 @@
 
 package main;
 
-class Player {
+public class Player {
     private int health;
     private int strength;
     private int attack;

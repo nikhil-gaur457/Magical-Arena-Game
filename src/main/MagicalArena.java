@@ -7,7 +7,7 @@
 
 package main;
 
-class MagicalArena {
+public class MagicalArena {
     private final Player playerA;
     private final Player playerB;
     private final DiceRoll diceRoll;
